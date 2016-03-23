@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function scope${1:Name}(\$query)
+{
+    return \$query->where('${2:column}', '${3:constraint}');
+}
+]]></content>
+    <tabTrigger>scope</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
