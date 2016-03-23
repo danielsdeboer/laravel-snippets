@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function scope${1:Name}(\$query, \$${2:parameter})
 {
-    return \$query->where('${3:column}', \$${4:parameter});
+    return \$query->where('${3:column}', \$${2:parameter});
 }
 ]]></content>
     <tabTrigger>scopeWithParameter</tabTrigger>
