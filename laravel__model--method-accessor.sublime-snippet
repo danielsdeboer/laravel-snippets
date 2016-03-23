@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function get${1:CamelCaseColumName}Attribute(\$value)
+{
+    return ${2:doSomethingTo}(\$value);
+}
+]]></content>
+    <tabTrigger>accessor</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
