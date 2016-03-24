@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+private function compose${1:Something}() {
+    \$${2:variable} = ${3:doSomething()};
+
+    view()->composer('${4:your.view}', function(\$view) use (\$${2:variable}) {
+        \$view->with(compact('${2:variable}'));
+    });
+
+    return \$this;
+}
+]]></content>
+    <tabTrigger>compose</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
