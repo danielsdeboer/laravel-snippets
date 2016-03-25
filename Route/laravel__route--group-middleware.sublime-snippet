@@ -6,4 +6,5 @@ Route::group(['middleware' => ['${1:middlewareName}']], function () {
 ]]></content>
     <tabTrigger>routeGroupMiddleware</tabTrigger>
     <scope>source.php</scope>
+    <description>Route Group Middleware</description>
 </snippet>

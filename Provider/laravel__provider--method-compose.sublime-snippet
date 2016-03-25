@@ -12,4 +12,5 @@ private function compose${1:Something}() {
 ]]></content>
     <tabTrigger>compose</tabTrigger>
     <scope>source.php</scope>
+    <description>Provider Composition Method</description>
 </snippet>

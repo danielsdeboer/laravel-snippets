@@ -7,4 +7,5 @@ public function get${1:CamelCaseColumName}Attribute(\$value)
 ]]></content>
     <tabTrigger>accessor</tabTrigger>
     <scope>source.php</scope>
+    <description>Model Accessor Method</description>
 </snippet>
