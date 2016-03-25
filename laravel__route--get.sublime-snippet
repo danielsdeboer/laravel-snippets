@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Route::get('${1:path/to/page}', '${2:controller@method}')->name('${3:name}');
+]]></content>
+    <tabTrigger>routeGet</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

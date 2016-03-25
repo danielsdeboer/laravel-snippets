@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Route::group(['middleware' => ['${1:middlewareName}']], function () {
+    ${3:// routes, etc}
+}
+]]></content>
+    <tabTrigger>routeGroupMiddleware</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
