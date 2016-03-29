@@ -5,7 +5,7 @@ public function scope${1:Name}(\$query, \$${2:parameter})
     return \$query->where('${3:column}', \$${2:parameter});
 }
 ]]></content>
-    <tabTrigger>scopeWithParameter</tabTrigger>
+    <tabTrigger>model.scopeWithParameter</tabTrigger>
     <scope>source.php</scope>
     <description>Model Query Scope With Parameter Method</description>
 </snippet>

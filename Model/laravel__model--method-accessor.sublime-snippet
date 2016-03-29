@@ -5,7 +5,7 @@ public function get${1:CamelCaseColumName}Attribute(\$value)
     return ${2:doSomethingTo}(\$value);
 }
 ]]></content>
-    <tabTrigger>accessor</tabTrigger>
+    <tabTrigger>model.accessor</tabTrigger>
     <scope>source.php</scope>
     <description>Model Accessor Method</description>
 </snippet>

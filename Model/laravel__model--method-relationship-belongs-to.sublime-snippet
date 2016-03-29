@@ -4,7 +4,7 @@ public function ${1:name}() {
     return \$this->belongsTo('App\\${2:model}', '${3:foreign_key_column}', '${4:id_column}');
 }
 ]]></content>
-    <tabTrigger>belongsTo</tabTrigger>
+    <tabTrigger>model.belongsTo</tabTrigger>
     <scope>source.php</scope>
     <description>Model BelongsTo Method</description>
 </snippet>
