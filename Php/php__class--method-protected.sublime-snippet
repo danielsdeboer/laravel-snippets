@@ -5,7 +5,7 @@ protected function ${1:MethodName}(${2:\$parameter})
     ${3:// Code}
 }
 ]]></content>
-    <tabTrigger>method.protected</tabTrigger>
+    <tabTrigger>method_protected</tabTrigger>
     <scope>source.php</scope>
     <description>Protected Method</description>
 </snippet>

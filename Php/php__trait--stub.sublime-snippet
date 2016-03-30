@@ -9,7 +9,7 @@ trait ${2:TraitName}
     ${3://Code here}
 \}
 ]]></content>
-    <tabTrigger>trait.stub</tabTrigger>
+    <tabTrigger>trait_stub</tabTrigger>
     <scope></scope>
     <description>Trait Stub</description>
 </snippet>
