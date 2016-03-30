@@ -10,7 +10,7 @@ private function compose${1:Something}() {
     return \$this;
 }
 ]]></content>
-    <tabTrigger>provider.compose</tabTrigger>
+    <tabTrigger>provider_compose</tabTrigger>
     <scope>source.php</scope>
     <description>Provider Composition Method</description>
 </snippet>

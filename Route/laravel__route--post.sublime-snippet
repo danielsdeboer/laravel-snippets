@@ -2,7 +2,7 @@
     <content><![CDATA[
 Route::post('${1:path/to/page}', '${2:controller@method}')->name('${3:name}');
 ]]></content>
-    <tabTrigger>route.post</tabTrigger>
+    <tabTrigger>route_post</tabTrigger>
     <scope>source.php</scope>
     <description>Route Post</description>
 </snippet>

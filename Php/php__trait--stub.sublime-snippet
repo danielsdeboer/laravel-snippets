@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<?php
+
+namespace ${1:App\\};
+
+trait ${2:TraitName}
+\{
+    ${3://Code here}
+\}
+]]></content>
+    <tabTrigger>trait.stub</tabTrigger>
+    <scope></scope>
+    <description>Trait Stub</description>
+</snippet>

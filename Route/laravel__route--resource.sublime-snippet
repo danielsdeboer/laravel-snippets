@@ -2,7 +2,7 @@
     <content><![CDATA[
 Route::resource('${1:path/to/page}', '${2:controller}');
 ]]></content>
-    <tabTrigger>route.resource</tabTrigger>
+    <tabTrigger>route_resource</tabTrigger>
     <scope>source.php</scope>
     <description>Route Resource</description>
 </snippet>

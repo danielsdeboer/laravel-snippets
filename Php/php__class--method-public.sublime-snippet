@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:MethodName}(${2:\$parameter})
+{
+    ${3:// Code}
+}
+]]></content>
+    <tabTrigger>method.public</tabTrigger>
+    <scope>source.php</scope>
+    <description>Protected Method</description>
+</snippet>
