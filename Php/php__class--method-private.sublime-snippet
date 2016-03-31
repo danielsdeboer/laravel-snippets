@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+private function ${1:MethodName}(${2:\$parameter})
+{
+    ${3:// Code}
+}
+]]></content>
+    <tabTrigger>method_private</tabTrigger>
+    <scope>source.php</scope>
+    <description>Private Method</description>
+</snippet>
