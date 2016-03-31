@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+return \$this;
+]]></content>
+    <tabTrigger>return_this</tabTrigger>
+    <scope></scope>
+    <description>Return $this</description>
+</snippet>
