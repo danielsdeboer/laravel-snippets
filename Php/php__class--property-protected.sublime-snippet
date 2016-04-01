@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+protected \$${1:property};
+]]></content>
+    <tabTrigger>property_protected</tabTrigger>
+    <scope></scope>
+    <description>Protected Property</description>
+</snippet>

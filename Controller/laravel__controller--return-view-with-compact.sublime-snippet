@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+return view('${1:some.view}')->with( compact('${2:some_var}') );
+]]></content>
+    <tabTrigger>controller_return_view_with_compact</tabTrigger>
+    <scope>source.php</scope>
+    <description>Controller Return View With Compact</description>
+</snippet>
