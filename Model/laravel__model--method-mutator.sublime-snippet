@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function set${1:CamelCaseColumName}Attribute(\$value)
+{
+    \$this->attributes['${2:column_name}'] = ${3:doSomethingTo}(\$value);
+}
+]]></content>
+    <tabTrigger>model_mutator</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model Mutator Method</description>
+</snippet>
