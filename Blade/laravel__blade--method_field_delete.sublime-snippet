@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ method_field('DELETE') }}
+]]></content>
+    <tabTrigger>method_field_delete</tabTrigger>
+    <scope>text.html</scope>
+    <description>Blade DELETE Method Field</description>
+</snippet>

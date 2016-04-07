@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-return view('${1:some.view}');
+{{ csrf_field() }}
 ]]></content>
-    <tabTrigger>blade_csrf_field</tabTrigger>
+    <tabTrigger>csrf_field</tabTrigger>
     <scope>text.html</scope>
     <description>Blade CSRF Field</description>
 </snippet>
