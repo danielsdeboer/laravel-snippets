@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$this->validate(\$request, [
+    '${1:field}' => '${2:validation|parameters}',
+]);
+]]></content>
+    <tabTrigger>controller_validate_request</tabTrigger>
+    <scope>source.php</scope>
+    <description>Controller Validate Request Inline</description>
+</snippet>
