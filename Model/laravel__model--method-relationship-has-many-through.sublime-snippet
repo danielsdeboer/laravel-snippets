@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:name}() {
+    return \$this->hasManyThrough(
+        'App\\${2:final_model}',
+        'App\\${3:intermediate_model}',
+        '${4:foreign_key_column_intermediate}',
+        '${5:foreign_key_column_final}'
+    );
+}
+]]></content>
+    <tabTrigger>model_hasManyThrough</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model hasManyThrough Method</description>
+</snippet>

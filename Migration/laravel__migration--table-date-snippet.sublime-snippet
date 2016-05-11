@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->date('${1:column_name}');
+]]></content>
+    <tabTrigger>table_date</tabTrigger>
+    <scope>source.php</scope>
+    <description>Migration Date Column</description>
+</snippet>
