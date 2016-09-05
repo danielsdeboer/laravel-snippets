@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$table->integer('${1:morphable}_id')->unsigned();
+\$table->string('${1:morphable}_type');
+]]></content>
+    <tabTrigger>table_polymorphic</tabTrigger>
+    <scope>source.php</scope>
+    <description>Migration Polymorphic Columns</description>
+</snippet>

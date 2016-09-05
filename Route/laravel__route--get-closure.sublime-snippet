@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Route::get('${1:path/to/page}', function() {
+    ${2:// code here}
+});
+]]></content>
+    <tabTrigger>route_get_with_closure</tabTrigger>
+    <scope>source.php</scope>
+    <description>Route Get With Closure</description>
+</snippet>
