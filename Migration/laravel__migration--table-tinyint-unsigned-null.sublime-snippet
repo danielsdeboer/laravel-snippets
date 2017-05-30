@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->tinyInteger('${1:column_name}')->unsigned()->nullable();
+]]></content>
+    <tabTrigger>table_tinyInt_unsigned_null</tabTrigger>
+    <scope>source.php</scope>
+    <description>Migration TinyInt (Unsigned, Null) Column</description>
+</snippet>

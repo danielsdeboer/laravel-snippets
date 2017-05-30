@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public static function ${1:MethodName}(${2:\$parameter})
+{
+    ${3:// Code}
+}
+]]></content>
+    <tabTrigger>method_public_static</tabTrigger>
+    <scope>source.php</scope>
+    <description>Public Method</description>
+</snippet>

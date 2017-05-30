@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-public function ${1:name}() {
+public function ${1:name}()
+{
     return \$this->hasOne('App\\${2:model}', '${3:foreign_key_column}', '${4:id_column}');
 }
 ]]></content>

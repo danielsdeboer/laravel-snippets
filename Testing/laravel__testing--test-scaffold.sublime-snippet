@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @group ${1:group}
+ * @test
+ */
+public function ${2:a_test_has_a_name}()
+{
+    // code
+}
+]]></content>
+    <tabTrigger>test_basic</tabTrigger>
+    <scope>source.php</scope>
+    <description>Basic Test Scaffold</description>
+</snippet>

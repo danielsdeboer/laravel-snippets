@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function(\$${1:item}) {
+    ${2:// code}
+}
+]]></content>
+    <tabTrigger>func</tabTrigger>
+    <scope>source.php</scope>
+    <description>Function Snippet</description>
+</snippet>

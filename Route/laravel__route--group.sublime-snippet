@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+Route::group([
+    'as' => '${1:as}.',
+    'prefix' => '${1:prefix}',
+    'namespace' => '${3:namespace}',
+    'middleware' => '${4:middleware}',
+], function () {
+
+    ${5:// route, resources, etc.}
+});
+]]></content>
+    <tabTrigger>route_group</tabTrigger>
+    <scope>source.php</scope>
+    <description>Route Group</description>
+</snippet>

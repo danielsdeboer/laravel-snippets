@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Route::get('${1:path/to/page}', function() {
+Route::get('${1:path/to/page}', function () {
     ${2:// code here}
 });
 ]]></content>

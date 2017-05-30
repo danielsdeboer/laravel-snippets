@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+\$this->middleware(function (\$request, \$next) {
+    ${1://code}
+
+    return \$next(\$request);
+});
+]]></content>
+    <tabTrigger>controller_anonymous_middleware</tabTrigger>
+    <scope>source.php</scope>
+    <description>Controller Anonymous Middleware</description>
+</snippet>

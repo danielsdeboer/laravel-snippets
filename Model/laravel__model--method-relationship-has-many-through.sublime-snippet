@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-public function ${1:name}() {
+public function ${1:name}()
+{
     return \$this->hasManyThrough(
         'App\\${2:final_model}',
         'App\\${3:intermediate_model}',
